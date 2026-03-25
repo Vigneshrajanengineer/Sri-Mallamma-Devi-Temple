@@ -191,3 +191,26 @@ header img {
 .slider button:hover {
     background: orange;
 }
+/* 🔔 Announcement */
+.announcement {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: #ffcc00;
+    color: #8b0000;
+    overflow: hidden;
+    white-space: nowrap;
+    z-index: 1000;
+}
+
+.announcement p {
+    display: inline-block;
+    padding-left: 100%;
+    animation: scrollText 15s linear infinite;
+}
+
+@keyframes scrollText {
+    0% { transform: translateX(0%); }
+    100% { transform: translateX(-100%); }
+}
+
