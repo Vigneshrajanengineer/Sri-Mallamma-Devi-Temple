@@ -1,0 +1,193 @@
+
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    background: linear-gradient(to right, #fff5e6, #ffe6cc);
+    color: #333;
+}
+
+/* Header */
+header {
+    background: linear-gradient(to right, #8b0000, #b22222);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border-bottom: 5px solid gold;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+/* Language Buttons */
+header button {
+    margin: 5px;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 20px;
+    background: gold;
+    color: black;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+header button:hover {
+    background: orange;
+}
+
+/* Navigation */
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    margin: 10px;
+    text-decoration: none;
+    color: #ffd700;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+/* Sections */
+section {
+    background: white;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* Section Titles */
+h2 {
+    color: #8b0000;
+    margin-bottom: 10px;
+    border-left: 5px solid orange;
+    padding-left: 10px;
+}
+
+/* Buttons */
+button {
+    padding: 10px 15px;
+    background: linear-gradient(to right, orange, gold);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+button:hover {
+    transform: scale(1.05);
+}
+
+/* Gallery Images */
+.gallery-img {
+    width: 100%;
+    max-width: 350px;
+    margin: 15px 0;
+    border-radius: 12px;
+    border: 3px solid #8b0000;
+    transition: 0.3s;
+}
+
+.gallery-img:hover {
+    transform: scale(1.05);
+}
+
+/* Map */
+#map iframe {
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+/* Donation Box */
+#donation ul {
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+#donation li {
+    margin-bottom: 5px;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    nav a {
+        display: block;
+        margin: 5px 0;
+    }
+
+    section {
+        margin: 10px;
+    }
+
+    .gallery-img {
+        max-width: 100%;
+    }
+}
+/* Top God Image */
+.top-god-img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid gold;
+    margin-bottom: 10px;
+    box-shadow: 0 0 15px rgba(255, 215, 0, 0.7);
+}
+
+/* Center image */
+header img {
+    display: block;
+    margin: 0 auto;
+}
+/* Slider Container */
+.slider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+/* Slider Image */
+#slider-image {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 12px;
+    border: 3px solid #8b0000;
+}
+
+/* Slider Buttons */
+.slider button {
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 50%;
+    background: gold;
+    border: none;
+    cursor: pointer;
+}
+
+.slider button:hover {
+    background: orange;
+}
