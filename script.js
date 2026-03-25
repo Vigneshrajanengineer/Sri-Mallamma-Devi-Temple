@@ -9,7 +9,7 @@ function donate() {
 function setLanguage(lang) {
 
     if (lang === "en") {
-        document.getElementById("title").innerText = "Sri Mallamma Devi Temple";
+        document.getElementById("title").innerText = "Sri Mallamma Devi Temple - Denkanikottai";
 
         document.getElementById("nav_about").innerText = "About";
         document.getElementById("nav_location").innerText = "Location";
@@ -22,7 +22,7 @@ function setLanguage(lang) {
 
         document.getElementById("location_title").innerText = "Location";
         document.getElementById("location_text").innerText =
-            "Located near Hosur, Tamil Nadu.";
+            "Located near Telugu school, pattalamai kovil road ,Denkanikottai,krishnagiri District, Tamil Nadu.";
 
         document.getElementById("map_btn").innerText = "View Google Map";
 
@@ -76,9 +76,7 @@ function setLanguage(lang) {
 }
 // Image list
 let images = [
-    "images/temple.jpg",
-    "images/construction.jpg",
-    "images/god.jpg"
+    "images/temple.jpg"
 ];
 
 let index = 0;
