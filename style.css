@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial;
+    background: linear-gradient(to right, #fff5e6, #ffe6cc);
+}
+
+/* 🔔 Announcement */
+.announcement {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: #ffcc00;
+    color: #8b0000;
+    overflow: hidden;
+    white-space: nowrap;
+    z-index: 1000;
+}
+
+.announcement p {
+    display: inline-block;
+    padding-left: 100%;
+    animation: scrollText 15s linear infinite;
+}
+
+@keyframes scrollText {
+    0% { transform: translateX(0%); }
+    100% { transform: translateX(-100%); }
+}
+
+/* Header */
+header {
+    margin-top: 40px;
+    text-align: center;
+    background: #8b0000;
+    color: white;
+    padding: 20px;
+}
+
+/* God Image */
+.top-god-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    border: 4px solid gold;
+}
+
+/* Nav */
+nav a {
+    margin: 10px;
+    color: gold;
+    text-decoration: none;
+}
+
+/* Sections */
+section {
+    background: white;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Slider */
+.slider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+#slider-image {
+    width: 100%;
+    max-width: 220px;
+    border-radius: 10px;
+    border: 3px solid #8b0000;
+}
+
+button {
+    padding: 10px;
+    background: gold;
+    border: none;
+    cursor: pointer;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background: #333;
+    color: white;
+    padding: 10px;
+}
