@@ -36,6 +36,8 @@ function setLanguage(lang) {
             "Your support is needed for temple maintenance and Annadhanam.";
 
         document.getElementById("donate_btn").innerText = "Donate Now";
+        document.getElementById("announcement-text").innerText =
+            "🔔 Festival Announcement: Special pooja on March 30";
 
         document.getElementById("footer_text").innerText =
             "© 2026 Sri Mallamma Devi Temple";
@@ -69,6 +71,8 @@ function setLanguage(lang) {
             "கோவில் பராமரிப்பிற்கு உங்கள் உதவி தேவை.";
 
         document.getElementById("donate_btn").innerText = "தானம் செய்ய";
+        document.getElementById("announcement-text").innerText =
+            "🔔 திருவிழா அறிவிப்பு: மார்ச் 30 அன்று சிறப்பு பூஜை";
 
         document.getElementById("footer_text").innerText =
             "© 2026 ஸ்ரீ மல்லம்மா தேவி கோவில்";
