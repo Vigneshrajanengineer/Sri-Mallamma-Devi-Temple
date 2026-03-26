@@ -13,7 +13,7 @@ body {
 .announcement {
     position: fixed;
     top: 0;
-    width: 100%;
+    width: 150%;
     background: #ffcc00;
     color: #8b0000;
     overflow: hidden;
